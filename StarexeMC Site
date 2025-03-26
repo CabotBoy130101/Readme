@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarexeMC - Server Minecraft</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1E2329;
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+        }
+        .background-overlay {
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%230099ff" fill-opacity="0.1" d="M0,160L48,176C96,192,192,224,288,229.3C384,235,480,213,576,192C672,171,768,149,864,160C960,171,1056,213,1152,229.3C1248,245,1344,235,1392,229.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body class="background-overlay">
+    <div class="container mx-auto px-4">
+        <header class="relative py-8">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-4">
+                    <div class="bg-blue-500 rounded-full px-4 py-2 flex items-center">
+                        <span>🏆</span>
+                        <span class="ml-2">873 Giocatori Online</span>
+                    </div>
+                    <div class="bg-green-500 rounded-full px-4 py-2 flex items-center">
+                        <span>💬</span>
+                        <span class="ml-2">10.435 Utenti Discord</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center my-12">
+                <div class="inline-block relative">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMjAwIj48Y2lyY2xlIGN4PSIxNTAiIGN5PSIxMDAiIHI9IjgwIiBmaWxsPSIjM0I4MkY2Ii8+PC9zdmc+" alt="StarexeMC Logo" class="w-48 h-48 mx-auto mb-4">
+                    <h1 class="text-5xl font-bold text-white">StarexeMC</h1>
+                </div>
+            </div>
+
+            <nav class="flex justify-center space-x-8 text-xl">
+                <a href="#" class="hover:text-blue-400">Home</a>
+                <a href="#" class="hover:text-blue-400">Forum</a>
+                <a href="#" class="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600">Store</a>
+                <a href="#" class="hover:text-blue-400">Discord</a>
+                <a href="#" class="hover:text-blue-400">Staff</a>
+            </nav>
+        </header>
+
+        <main class="mt-12">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h2 class="text-2xl font-semibold mb-4">Chi Siamo</h2>
+                    <p class="text-gray-300">
+                        StarexeMC nasce nel 2020 da dei apposianati di Minecraft, 
+                        dando la possibilità di divertirsi insieme 
+                        anche dalle quattro mura di casa.
+                    </p>
+                </div>
+
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h2 class="text-2xl font-semibold mb-4">Link Utili</h2>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-blue-400 hover:underline">Store</a></li>
+                        <li><a href="#" class="text-blue-400 hover:underline">Discord</a></li>
+                        <li><a href="#" class="text-blue-400 hover:underline">Telegram</a></li>
+                    </ul>
+                </div>
+
+                <div class="bg-gray-800 p-6 rounded-lg text-center">
+                    <h2 class="text-2xl font-semibold mb-4">Supportaci</h2>
+                    <p class="text-gray-300 mb-4">
+                        Regala un'emozione unica supportando il tuo server preferito!
+                    </p>
+                    <a href="#" class="bg-blue-500 text-white px-8 py-3 rounded-full hover:bg-blue-600">Store</a>
+                </div>
+            </div>
+        </main>
+
+        <footer class="text-center py-8 mt-12">
+            <p class="text-gray-400">&copy; 2025 StarexeMC. Tutti i diritti riservati.</p>
+        </footer>
+    </div>
+</body>
+</html>
